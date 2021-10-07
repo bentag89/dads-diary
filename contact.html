@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Contact me here!" />
+    <link rel="icon" type="png" href="/images/icon.png" />
+    <title>Dad's Diary | Contact</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <section>
+        <div class="social">
+          <i class="fab fa-instagram fabhead"></i>
+          <i class="fab fa-facebook-square fabhead"></i>
+          <i class="fab fa-twitter-square fabhead"></i>
+          <i class="fab fa-youtube fabhead"></i>
+        </div>
+      </section>
+      <a href="index.html"></a>
+        <img src="images/logo.png" class="logo" alt="Dad's Diary logo" />
+      </a>
+      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu" />
+      <nav>
+        <ul>
+          <li><a href="posts.html">Blogs</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="current">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="pagecontent">
+        <h1>Contact...</h1>
+        <form id="form" action="" method="POST">
+          <label for="fullName">Full Name</label>
+          <br />
+          <input type="text" name="fullName" id="fullName" />
+          <br />
+          <p id="nameError" class="form-error">Please enter your full name.</p>
+          <label for="email">E-mail</label>
+          <br />
+          <input type="text" name="email" id="email" />
+          <br />
+          <p id="emailError" class="form-error">
+            Please enter a valid email address.
+          </p>
+          <label for="subject">Subject</label>
+          <br />
+          <input type="text" name="subject" id="subject" />
+          <br />
+          <p id="subjectError" class="form-error">
+            Your subject must be more than 15 characters.
+          </p>
+          <label for="messageText">Your message</label>
+          <br />
+          <textarea id="messageText" cols="24" rows="10"></textarea>
+          <br />
+          <p id="messageError" class="form-error">
+            Your message must be more than 25 characters.
+          </p>
+          <button class="message-button" id="submit">Send Message</button>
+          <div id="message"></div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <div class="social-foot">
+          <i class="fab fa-instagram fabfoot"></i>
+          <i class="fab fa-facebook-square fabfoot"></i>
+          <i class="fab fa-twitter-square fabfoot"></i>
+          <i class="fab fa-youtube fabfoot"></i>
+        </div>
+      </section>
+      <ul class="footer-nav">
+        <li><a href="posts.html">Blogs</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="current">Contact</a></li>
+      </ul>
+      <div class="footer">
+        <img src="images/footer.png" alt="copyright Dad's Diary 2021" />
+      </div>
+    </footer>
+    <script src="js/contact.js"></script>
+  </body>
+</html>

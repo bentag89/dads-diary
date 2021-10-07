@@ -1,0 +1,394 @@
+h1 {
+  font-family: "reenie beanie";
+}
+img {
+  max-width: 100%;
+}
+.fabhead {
+  display: none;
+}
+.social {
+  padding: 10px 50px;
+}
+.logo {
+  max-width: 200px;
+  padding: 50px 0px 0px 50px;
+}
+footer {
+  background-color: #a20000;
+}
+.form-error {
+  display: none;
+  color: darkred;
+  font-size: 0.9rem;
+  margin-top: 2px;
+}
+.success {
+  text-align: center;
+  font-family: "spartan";
+  font-size: 0.8em;
+  font-weight: 600;
+  margin: 0;
+  color: black;
+  margin: 10px 0 30px 0;
+  position: absolute;
+}
+form {
+  background-color: rgba(162, 0, 0, 0.5);
+  max-width: 175px;
+  border-radius: 20px;
+  padding: 50px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.formh1 {
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-size: 2em;
+}
+input,
+textarea {
+  margin: 5px 0px 20px 0px;
+}
+label,
+p,
+button,
+h2 {
+  font-family: "spartan";
+}
+button {
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(162, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 25px;
+  border-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.footer {
+  max-width: 200px;
+  margin: auto;
+  padding: 10px;
+}
+nav {
+  display: none;
+  position: relative;
+}
+nav ul {
+  position: absolute;
+  background-color: rgba(162, 0, 0, 1);
+  margin-top: 0;
+  width: 100%;
+  padding: 20px 0px;
+}
+nav ul li {
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "spartan";
+  padding: 10px 0px;
+}
+#hamburger-menu {
+  display: none;
+}
+#hamburger-menu:checked ~ nav {
+  display: block;
+}
+.fa-bars {
+  color: black;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.fabfoot {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  display: inline-flex;
+  color: white;
+  margin-top: 20px;
+}
+footer li {
+  display: inline-flex;
+  list-style-type: none;
+  text-decoration: none;
+  padding: 30px;
+}
+footer ul {
+  padding-left: 0;
+}
+.social-foot {
+  text-align: center;
+}
+.footer-nav {
+  text-align: center;
+  margin: auto;
+}
+h1 {
+  font-size: 4em;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 150px;
+}
+.signature {
+  margin-top: 30px;
+}
+.current {
+  color: black;
+}
+.abouttext {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+}
+p .firstwords {
+  font-family: "reenie beanie";
+  font-weight: 600;
+  font-size: 2em;
+}
+.img {
+  max-width: 300px;
+  margin: auto;
+}
+.contentimg {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+/* Contact */
+
+.message-button {
+  margin-left: 10px;
+}
+/* Home */
+
+.pagecontent,
+.subscribe {
+  padding: 40px 0px 30px 0px;
+}
+.subscribe {
+  margin-top: 200px;
+}
+.posts {
+  display: flex;
+  max-width: 100%;
+  overflow: scroll;
+}
+.posts div {
+  padding: 50px 50px 10px 30px;
+}
+.posttitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+.arrow {
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  width: 40px;
+  height: 40px;
+  border: 0px;
+  margin: 40px 40px 0px 40px;
+}
+.scroll-arrows {
+  text-align: center;
+}
+.posts {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+/* Posts */
+.allposts {
+  height: 1500px;
+  overflow: hidden;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.view-more {
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  font-family: "reenie beanie";
+  font-weight: 200;
+  font-size: 2em;
+  margin: auto;
+}
+.view-more-button {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Post Specific */
+.wp-block-image,
+.size-full {
+  text-align: center;
+}
+figure img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: 40px;
+}
+figcaption {
+  font-family: "spartan";
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+/* Media Queries */
+
+@media (min-width: 600px) {
+  .fabfoot {
+    font-size: 2em;
+    padding: 30px;
+  }
+  .formh1 {
+    margin: auto;
+  }
+  .subscribe {
+    margin-top: 300px;
+  }
+  .fas {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .arrow {
+    margin: 80px 80px 0px 80px;
+  }
+  .allposts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    height: 1300px;
+  }
+  .contentimg {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 700px) {
+  form {
+    max-width: 500px;
+  }
+  button {
+    margin-left: 200px;
+  }
+  input,
+  textarea {
+    margin: 5px 0px 20px 175px;
+  }
+  label {
+    margin: 50px 0px 20px 175px;
+  }
+  .form-error {
+    margin: 0px 0px 20px 150px;
+  }
+  .success {
+    margin-left: 150px;
+    font-size: 1em;
+  }
+  .message-button {
+    margin-left: 185px;
+  }
+  footer a {
+    font-size: 1.5em;
+  }
+  .allposts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    height: 1250px;
+  }
+}
+
+@media (min-width: 800px) {
+  nav {
+    display: flex;
+  }
+  nav ul {
+    position: absolute;
+    background-color: rgba(1, 1, 1, 0);
+    margin-top: -90px;
+    width: 100%;
+    padding: 20px 0px;
+  }
+  nav a {
+    color: #a20000;
+  }
+  nav a:hover {
+    color: #707070;
+  }
+  nav ul li {
+    display: inline-flex;
+    padding: 0px 50px 10px 50px;
+    float: right;
+    font-size: 1.5em;
+    border-bottom: 2px solid #a20000;
+  }
+  .fa-bars {
+    display: none;
+  }
+  .fabhead {
+    padding: 10px 20px 10px 20px;
+    font-size: 2em;
+    display: inline-flex;
+    float: right;
+    margin: 10px;
+    margin-top: 50px;
+    color: #707070;
+  }
+  .social {
+    margin-right: -25px;
+  }
+  .footer {
+    max-width: 300px;
+  }
+  .fas {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+  .allposts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    height: 750px;
+  }
+}
+
+@media (min-width: 900px) {
+  .allposts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    height: 900px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .logo {
+    max-width: 300px;
+  }
+  .fas {
+    font-size: 2em;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .arrow {
+    margin: 80px 160px 0px 160px;
+  }
+  .allposts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4rem;
+    height: 850px;
+  }
+}
